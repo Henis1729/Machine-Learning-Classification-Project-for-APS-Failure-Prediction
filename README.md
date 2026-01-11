@@ -1,4 +1,4 @@
-# Machine Learning Classification Projects — Final Academic Submission Repository
+# Machine Learning Classification Project
 
 This repository contains multiple machine learning classification projects completed as part of university coursework, including:
 

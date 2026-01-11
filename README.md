@@ -3,8 +3,6 @@
 This repository contains multiple machine learning classification projects completed as part of university coursework, including:
 
 - **APS System Failure Prediction (Data Analytics & Big Data)**
-- **Loan Approval Prediction (Data Mining)**
-- **Naive Bayes Manual Classification Demonstration**
 
 Each project includes complete end-to-end machine learning workflows: data preprocessing, exploratory analysis, feature engineering, model selection, training, evaluation, and performance comparison using real datasets.
 
@@ -13,9 +11,6 @@ Each project includes complete end-to-end machine learning workflows: data prepr
 ## 📁 Projects Included
 
 ### **1. APS System Failure Prediction using Supervised Learning**
-Course: **SEP 6DA3 — Data Analytics and Big Data (Fall 2024)**  
-Instructor: **Siqi Zhao**  
-Group: **Group 19**
 
 This project predicts air pressure system failures in Scania heavy trucks using supervised ML models.
 
@@ -140,88 +135,7 @@ Settings:
 - Feature importance analysis
 
 ---
-
-## 📁 **2. Loan Approval Prediction (Data Mining Project)**
-Course: **SFWRTECH 4DM3 — Data Mining (Winter 2025)**
-Instructor: **Jeff Fortuna**
-
-This project trains ML models to predict whether a loan application will be approved.
-
-### Dataset
-Includes:
-- income, loan amount, term
-- cibil_score
-- asset values
-- loan_status
-
-### Data Preprocessing
-Performed:
-- Handling missing values
-- Feature engineering:
-  - debt_to_income
-  - total_assets
-- Scaling & Encoding
-- Train/Test Split
-
-### Models Compared
-- SVM (RBF)
-- Logistic Regression
-- AdaBoost
-
-### Hyperparameter Tuning (CV)
-Best Params:
-- **SVM:** `C=10`, `kernel=rbf`, `gamma=auto`
-- **LogReg:** `C=0.1`, `penalty=l1`, `solver=liblinear`
-- **AdaBoost:** `n_estimators=50`, `learning_rate=0.01`
-
-### Results
-
-| Model | Accuracy | AUC | Train(s) | Test(s) | F1 |
-|-------|---------|-----|----------|---------|-----|
-| SVM | 90.12% | 0.93 | 12.35 | 0.012 | 0.94 |
-| LogReg | 88.76% | 0.91 | 1.23 | 0.001 | 0.94 |
-| **AdaBoost** | **89.65%** | **0.92** | **3.46** | **0.003** | **0.96** |
-
-**Winner:** 🏆 **AdaBoost**
-
----
-
-## 📁 **3. Manual Naive Bayes Classifier Demo**
-
-A Python implementation demonstrating Bayesian classification without sklearn.
-
-### Features Used
-- Purchase price
-- Maintenance cost
-- Doors
-- Trunk size
-- Safety
-
-### Pipeline
-- Manual prior computation
-- Manual likelihood computation
-- Posterior classification
-- Error rate calculation
-
-### Purpose
-✔ Educational  
-✔ Probabilistic intuition  
-✔ Zero-library classifier  
-
----
-
-## 📦 Tools & Technologies
-- Python
-- pandas
-- numpy
-- sklearn
-- matplotlib
-- SMOTE
-- PCA
-
----
-
-## 🎓 Academic Value & Learning Outcomes
+## 🎓 Learning Outcomes
 
 Across all projects, the work demonstrates:
 
@@ -244,17 +158,6 @@ Across all projects, the work demonstrates:
 - **Cross-validation** crucial for parameter tuning
 - **ROC/AUC** valuable for imbalanced classes
 - **Imbalance handling** is a real-world necessity
-
----
-
-## 📚 Course Credits
-
-Projects completed under:
-
-- SEP 6DA3 — Data Analytics and Big Data
-- SFWRTECH 4DM3 — Data Mining
-
-Institution: **McMaster University, Canada**
 
 ---
 
